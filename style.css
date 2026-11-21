@@ -5,8 +5,6 @@ body {
     color: black;
     margin: 0;
 }
-
-/* الشريط العلوي */
 header {
     background-color: midnightblue;
     padding: 15px 50px;
@@ -36,20 +34,15 @@ nav a {
 nav a:hover {
     color: gold;
 }
-
-/* القسم الكحلي الكبير مع صورة خلفية ومساحة أكبر */
 .hero {
     background-color: navy;
-    background-image: url("Judicial integrity.jpg");
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: multiply;
     color: white;
-    padding: 95px 50px;
+    padding: 85px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .hero-left {
     width: 58%;
@@ -105,8 +98,6 @@ nav a:hover {
 .btn-gold:hover, .btn-white:hover {
     opacity: 0.85;
 }
-
-/* البطاقة البيضاء */
 .hero-card {
     background-color: white;
     color: black;
@@ -170,8 +161,6 @@ nav a:hover {
     font-weight: bold;
     font-size: 14px;
 }
-
-/* القسم السفلي Main */
 main {
     background-color: white;
     padding: 45px 50px;
