@@ -13,6 +13,7 @@ h1 {
 
 p {
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -20,13 +21,18 @@ nav {
     padding: 15px;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
+    margin-right: 15px;
 }
 
 main {
     padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
 }
 
 img {
