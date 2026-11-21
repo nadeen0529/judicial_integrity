@@ -38,14 +38,15 @@ nav a:hover {
     background-color: steelblue;
     background-image: url("courthouse.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-blend-mode: multiply;
     color: white;
-    padding: 85px 50px;
+    padding: 140px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .hero-left {
     width: 58%;
