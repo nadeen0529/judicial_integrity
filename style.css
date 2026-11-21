@@ -1,12 +1,12 @@
+
 body {
     background-color: whitesmoke;
     font-family: Arial;
-    font-size: 16px;
-    color: black;
     margin: 0;
 }
 header {
     background-color: midnightblue;
+    color: white;
     padding: 15px 50px;
     display: flex;
     justify-content: space-between;
@@ -46,8 +46,6 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 .hero-left {
     width: 58%;
@@ -103,6 +101,7 @@ nav a:hover {
 .btn-gold:hover, .btn-white:hover {
     opacity: 0.85;
 }
+
 .hero-card {
     background-color: white;
     color: black;
@@ -166,26 +165,14 @@ nav a:hover {
     font-weight: bold;
     font-size: 14px;
 }
+
+.card-link:hover {
+    color: goldenrod;
+}
 main {
-    background-color: white;
-    padding: 45px 50px;
-    margin: 40px 50px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-}
-
-.small-title {
-    font-size: 12px;
-    font-weight: bold;
-    color: gray;
-}
-
-main h2 {
-    color: midnightblue;
-    font-family: Georgia;
-    font-size: 32px;
-    margin-top: 8px;
-    margin-bottom: 20px;
+    background-color: floralwhite;
+    padding: 60px 50px;
+    margin: 0;
 }
 
 .about-section {
@@ -198,14 +185,29 @@ main h2 {
     width: 52%;
 }
 
-.about-text p {
-    font-size: 17px;
-    line-height: 1.6;
-    color: darkslategray;
-    margin: 0 0 15px 0;
+.small-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: steelblue;
 }
 
-img {
+.about-text h2 {
+    color: midnightblue;
+    font-family: Georgia;
+    font-size: 42px;
+    line-height: 1.15;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: dimgray;
+    margin: 0 0 18px 0;
+}
+
+.about-section img {
     width: 400px;
     border-radius: 10px;
 }
