@@ -16,14 +16,20 @@ p {
 }
 
 nav {
-    background-color:navy;
- padding: 15px;
+    background-color: navy;
+    padding: 15px;
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+
 main {
     padding: 20px;
+}
+
+img {
+    width: 500px;
+    margin-top: 20px;
 }
