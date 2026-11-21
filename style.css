@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: lightgray;
     font-family: Arial;
     font-size: 16px;
     color: black;
@@ -8,8 +8,10 @@ body {
 
 h1 {
     font-size: 36px;
-    color: navy;
-    margin: 20px;
+    color: white;
+    background-color: navy;
+    padding: 25px;
+    margin: 0;
 }
 
 p {
@@ -19,7 +21,7 @@ p {
 }
 
 nav {
-    background-color: navy;
+    background-color: darkblue;
     padding: 20px;
 }
 
@@ -34,7 +36,7 @@ main {
     background-color: white;
     padding: 30px;
     margin: 25px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
 }
 
 h2 {
