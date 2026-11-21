@@ -1,42 +1,60 @@
 body {
-    background-color: white;
+    background-color: whitesmoke;
     font-family: Arial;
     font-size: 16px;
     color: black;
+    margin: 0;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 36px;
     color: navy;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 p {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin: 20px;
+    line-height: 1.5;
 }
 
 nav {
     background-color: navy;
-    padding: 15px;
+    padding: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 25px;
+    font-size: 18px;
 }
 
 main {
-    padding: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    border: 1px solid lightgray;
+}
+
+h2 {
+    color: navy;
+    font-size: 28px;
+    margin-bottom: 25px;
 }
 
 section {
     display: flex;
+    align-items: center;
     margin-bottom: 20px;
 }
 
+section p {
+    width: 50%;
+    margin: 10px;
+}
+
 img {
-    width: 300px;
-    margin-top: 20px;
+    width: 350px;
+    margin: 20px;
 }
