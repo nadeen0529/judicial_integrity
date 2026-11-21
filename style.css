@@ -35,13 +35,18 @@ nav a:hover {
     color: gold;
 }
 .hero {
-    background-color: navy;
+    background-color: steelblue;
+    background-image: url("courthouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
     color: white;
     padding: 85px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 .hero-left {
