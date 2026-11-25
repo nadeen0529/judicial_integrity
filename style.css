@@ -1,26 +1,26 @@
-
 body {
     background-color: whitesmoke;
     font-family: Arial;
     margin: 0;
+    color: black;
 }
 header {
     background-color: midnightblue;
     color: white;
-    padding: 15px 50px;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-text h1 {
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     margin: 0;
 }
 
 .logo-text span {
-    font-size: 12px;
+    font-size: 14px;
     color: lightgray;
 }
 
@@ -34,29 +34,24 @@ nav a {
 nav a:hover {
     color: gold;
 }
+
 .hero {
     background-color: steelblue;
-    background-image: url("courthouse.jpg");
-    background-size: cover;
-    background-position: top;
-    background-blend-mode: multiply;
     color: white;
-    padding: 140px 50px;
+    padding: 70px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 .hero-left {
-    width: 58%;
+    width: 55%;
 }
 
 .badge {
     background-color: goldenrod;
     color: midnightblue;
-    padding: 6px 14px;
-    border-radius: 15px;
+    padding: 8px;
     font-size: 12px;
     font-weight: bold;
 }
@@ -64,7 +59,7 @@ nav a:hover {
 .hero-left h2 {
     color: white;
     font-family: Georgia;
-    font-size: 46px;
+    font-size: 42px;
     margin-top: 20px;
     margin-bottom: 18px;
 }
@@ -72,8 +67,8 @@ nav a:hover {
 .hero-left p {
     color: white;
     font-size: 18px;
-    margin: 0 0 30px 0;
     line-height: 1.6;
+    margin-bottom: 25px;
 }
 
 .hero-buttons {
@@ -83,9 +78,8 @@ nav a:hover {
 .btn-gold {
     background-color: goldenrod;
     color: midnightblue;
-    padding: 14px 24px;
+    padding: 14px;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
     margin-right: 15px;
 }
@@ -93,22 +87,22 @@ nav a:hover {
 .btn-white {
     background-color: white;
     color: midnightblue;
-    padding: 14px 24px;
+    padding: 14px;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
 }
 
-.btn-gold:hover, .btn-white:hover {
-    opacity: 0.85;
+.btn-gold:hover,
+.btn-white:hover {
+    color: steelblue;
 }
 
 .hero-card {
     background-color: white;
     color: black;
-    width: 33%;
-    padding: 28px;
-    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid lightgray;
 }
 
 .card-top {
@@ -122,21 +116,18 @@ nav a:hover {
     color: midnightblue;
     font-family: Georgia;
     font-size: 20px;
-    margin: 0;
 }
 
 .teams-badge {
     background-color: whitesmoke;
     color: gray;
     font-size: 12px;
-    padding: 4px 8px;
-    border-radius: 4px;
+    padding: 6px;
 }
 
 .hero-card p {
     font-size: 15px;
     color: dimgray;
-    margin: 0 0 18px 0;
     line-height: 1.5;
 }
 
@@ -150,7 +141,6 @@ nav a:hover {
 }
 
 .card-numbers strong {
-    display: block;
     font-size: 26px;
     color: midnightblue;
 }
@@ -170,10 +160,10 @@ nav a:hover {
 .card-link:hover {
     color: goldenrod;
 }
+
 main {
     background-color: floralwhite;
-    padding: 60px 50px;
-    margin: 0;
+    padding: 50px 40px;
 }
 
 .about-section {
@@ -195,9 +185,8 @@ main {
 .about-text h2 {
     color: midnightblue;
     font-family: Georgia;
-    font-size: 42px;
-    line-height: 1.15;
-    margin-top: 8px;
+    font-size: 38px;
+    line-height: 1.2;
     margin-bottom: 20px;
 }
 
@@ -205,10 +194,10 @@ main {
     font-size: 18px;
     line-height: 1.6;
     color: dimgray;
-    margin: 0 0 18px 0;
+    margin-bottom: 18px;
 }
 
 .about-section img {
-    width: 400px;
-    border-radius: 10px;
+    width: 35%;
+    border: 2px solid lightgray;
 }
